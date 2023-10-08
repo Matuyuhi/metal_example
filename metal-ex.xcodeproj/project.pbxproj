@@ -11,6 +11,8 @@
 		82B5B9DF2AD262500063FAF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5B9DE2AD262500063FAF4 /* ContentView.swift */; };
 		82B5B9E12AD262510063FAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B5B9E02AD262510063FAF4 /* Assets.xcassets */; };
 		82B5B9E42AD262510063FAF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B5B9E32AD262510063FAF4 /* Preview Assets.xcassets */; };
+		82B5B9EB2AD2629C0063FAF4 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5B9EA2AD2629C0063FAF4 /* Renderer.swift */; };
+		82B5B9ED2AD277F10063FAF4 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5B9EC2AD277F10063FAF4 /* MetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		82B5B9DE2AD262500063FAF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82B5B9E02AD262510063FAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82B5B9E32AD262510063FAF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82B5B9EA2AD2629C0063FAF4 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		82B5B9EC2AD277F10063FAF4 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				82B5B9DE2AD262500063FAF4 /* ContentView.swift */,
 				82B5B9E02AD262510063FAF4 /* Assets.xcassets */,
 				82B5B9E22AD262510063FAF4 /* Preview Content */,
+				82B5B9EA2AD2629C0063FAF4 /* Renderer.swift */,
+				82B5B9EC2AD277F10063FAF4 /* MetalView.swift */,
 			);
 			path = "metal-ex";
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B5B9ED2AD277F10063FAF4 /* MetalView.swift in Sources */,
 				82B5B9DF2AD262500063FAF4 /* ContentView.swift in Sources */,
+				82B5B9EB2AD2629C0063FAF4 /* Renderer.swift in Sources */,
 				82B5B9DD2AD262500063FAF4 /* metal_exApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
